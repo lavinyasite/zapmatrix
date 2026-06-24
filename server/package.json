@@ -1,0 +1,24 @@
+{
+  "name": "linkiverse-server",
+  "version": "1.0.0",
+  "description": "Backend for Linkiverse Scraper",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "drizzle-orm": "^0.29.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

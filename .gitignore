@@ -1,0 +1,9 @@
+node_modules/
+.env
+__pycache__/
+chrome_profile/
+*.log
+.DS_Store
+.gemini/
+
+mysql-data/
